@@ -34,3 +34,17 @@ $(document).ready(function(){
     })
     
 });
+
+function sendMail(params){
+    var tempParams = {
+        from_name: document.getElementById("name").value,
+        reply_to: document.getElementById("email").value,
+        message: document.getElementById("message").value,
+    };
+
+    emailjs.send("gmail", "template_2c36h67", tempParams )
+    .then (function(res){
+        console.log("success",res.status);
+    })
+
+}
