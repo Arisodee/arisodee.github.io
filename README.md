@@ -4,4 +4,4 @@ This is my portfolio website built using HTML, CSS, Javascript and Bootstrap.
 
 ### Live link
 
-https://arisodee.github.io/Portfolio./
+https://arisodee.github.io/
