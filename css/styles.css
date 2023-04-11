@@ -361,7 +361,8 @@ section {
 
 .skills-content .fab{
     color: #1C4B43;
-    margin-left: 7%;
+    margin-left: 4%;
+ 
     
 }
 
@@ -493,6 +494,22 @@ section {
     color: black;
     background-color: white;
     font-weight: bold;
+}
+
+.email-sending{
+    color: white;
+    background-color: #1C4B43;
+    padding: 10%;
+    margin: 3%;
+    text-align: center;
+}
+
+.email-failed{
+    color: white;
+    background-color:#1C4B43;
+    padding: 10%;
+    margin: 3%;
+    text-align: center;
 }
 
 /* Footer */

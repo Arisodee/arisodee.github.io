@@ -121,7 +121,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-2"></div>
-                        <div class="col-md-8">
+                        <div class="col-md-8 row-1">
                             <i class="fab fa-python fa-10x"></i>
                             <i class="fab fa-angular fa-10x"></i>
                             <i class="fab fa-html5 fa-10x"></i>
@@ -131,13 +131,13 @@
                     </div>
                     <div class="row">
                         <div class="col-md-2"></div>
-                        <div class="col-md-8">
+                        <div class="col-md-8 ">
                             <i class="fab fa-js-square fa-10x"></i>
                             <i class="fab fa-bootstrap fa-10x"></i>
                             <i class="fab fa-node-js fa-10x"></i>
                             <i class="fab fa-github fa-10x"></i>
                         </div>
-                        <div class="col-md-2"></div>
+                        
                     </div>
                 </div>
             </div>
@@ -183,20 +183,20 @@
 
                 <div class="column-right">
                     <div class="text">Email me Directly</div>
-                    <form action="#">
+                    <form action="https://mail-server-woad.vercel.app/" method="post">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" id="name" placeholder="Name" required>
+                                <input type="text" id="name" placeholder="Name" name="yourname" required>
                             </div>
                             <div class="field email">
-                                <input type="email" id="email" placeholder="Email" required>
+                                <input type="email" id="email" placeholder="Email" name="youremail" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="text" id="subject" placeholder="Subject" required>
+                            <input type="text" id="subject" placeholder="Subject" name="yoursubject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea name="" id="message" cols="30" rows="10" placeholder="Write message..."
+                            <textarea id="message" cols="30" rows="10" placeholder="Write message..." name="yourmessage"
                                 required></textarea>
                         </div>
                         <div class="button">
