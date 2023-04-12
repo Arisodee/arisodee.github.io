@@ -267,12 +267,12 @@ section {
     transform: translateX(-50%);
 }
 .services .title::after {
-    /* content: 'my work'; */
+
     position: absolute;
     bottom: -7px;
     left: 50%;
     font-size: 20px;
-    /* color: crimson; */
+    
     padding: -3px;
     background: #111;
     transform: translateX(-50%);
@@ -512,6 +512,21 @@ section {
     text-align: center;
 }
 
+.btn-primary{
+    color: #fff;
+    background-color: #14CFAE;
+    border: 2px solid #1C4B43 ;
+    font-weight: bold;
+    font-size: medium;
+    padding: 7px;
+    margin-top: 10px;
+    
+}
+.btn-primary:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #1C4B43;
+  }
 /* Footer */
 footer {
     background: #fff;
